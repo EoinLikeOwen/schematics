@@ -1,14 +1,14 @@
 Overview
 =========
 
-This repository contains miscellaneous schematics and PCB layouts.  Some are projects I have built (or designed and decided not to build for one reason or another) and others were simple exercises for learning the tools used.
+This repository contains miscellaneous schematics and PCB layouts.  Some are projects I have built (or designed with intent to build, but decided not to build for one reason or another) and others were simple exercises for learning the design tools.
 
-I will try to keep READMEs up-to-date in each project describing which each one is and, if the design was built, how it went.  
+I will try to keep READMEs up-to-date in each project describing which each one is and, if the design was built, how it went.
 
 Currently all design files are for gEDA, but I will likely experiment with other tools soon too.
 
-Public domain
-==============
+(Un)license
+============
 
 All designs are free to use (I release them to the public domain) - see the file UNLICENSE for more details, including the oh-so-important disclaimer of warrantees.
 
