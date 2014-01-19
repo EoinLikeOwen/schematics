@@ -26,15 +26,7 @@ bom =
     , (1, antenna)
     ]
 
-pcb = 
-    [ Part 
-        { supplier      = oshPark
-        , partNo        = "at86rf breakout"
-        , minimumQty    = 3
-        , increment     = 3
-        , price         = 1.35
-        }
-    ]
+pcb = oshParkPCB 0.81 "at86rf breakout"
 
 transceiver = basicPart mouser "AT86RF233-ZU"
     [ (1,    4.73)
@@ -124,6 +116,23 @@ mouser  = Supplier "Mouser" 4.99
 oshPark = Supplier "OSH Park" 0
 digikey = Supplier "Digikey" 5.47
 newark  = Supplier "Newark" 8.50
+
+oshParkPCB sz boardName = 
+    [ Part 
+        { supplier      = oshPark
+        , partNo        = boardName
+        , minimumQty    = 3
+        , increment     = 3
+        , price         = sz * 5 / 3
+        }
+    , Part
+        { supplier      = oshPark
+        , partNo        = boardName
+        , minimumQty    = 10 * ceiling (15 / sz)
+        , increment     = 10
+        , price         = sz
+        }
+    ]
 
 data Part = Part
     { supplier      :: Supplier

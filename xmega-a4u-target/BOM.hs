@@ -18,23 +18,7 @@ bom =
     , (1, resetPullUpResistor)
     ]
 
-pcb = 
-    [ Part 
-        { supplier      = oshPark
-        , partNo        = "xmega a4u target board"
-        , minimumQty    = 3
-        , increment     = 3
-        , price         = 2.85
-        }
-    , Part
-        { supplier      = oshPark
-        , partNo        = "xmega a4u target board"
-        , minimumQty    = 60
-        , increment     = 10
-        , price         = 1.7091
-        }
-    ]
-
+pcb = oshParkPCB 1.7091 "xmega a4u target board"
 
 mcu = basicPart mouser "ATXMEGA16A4U-MH"
     [ (1,   2.86)
@@ -78,6 +62,23 @@ mouser  = Supplier "Mouser" 4.99
 oshPark = Supplier "OSH Park" 0
 digikey = Supplier "Digikey" 5.47
 newark  = Supplier "Newark" 8.50
+
+oshParkPCB sz boardName = 
+    [ Part 
+        { supplier      = oshPark
+        , partNo        = boardName
+        , minimumQty    = 3
+        , increment     = 3
+        , price         = sz * 5 / 3
+        }
+    , Part
+        { supplier      = oshPark
+        , partNo        = boardName
+        , minimumQty    = 10 * ceiling (15 / sz)
+        , increment     = 10
+        , price         = sz
+        }
+    ]
 
 data Part = Part
     { supplier      :: Supplier
