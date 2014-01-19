@@ -58,4 +58,9 @@ Icon?
 *.sym~
 *.sch~
 
+#########
+# KiCAD #
+#########
 
+*.kicad_pcb-bak
+*-cache.lib

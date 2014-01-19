@@ -1,0 +1,129 @@
+Cmp-Mod V01 Created by CvPcb (2013-june-11)-stable date = Sat 18 Jan 2014 09:56:00 PM PST
+
+BeginCmp
+TimeStamp = /52DA08E2;
+Reference = C1;
+ValeurCmp = 4.7nF;
+IdModule  = SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DA18FB;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DA0BD5;
+Reference = C3;
+ValeurCmp = 10nF;
+IdModule  = SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DA10DA;
+Reference = C4;
+ValeurCmp = 47pF;
+IdModule  = SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DA10E9;
+Reference = C5;
+ValeurCmp = 47pF;
+IdModule  = SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DA22C9;
+Reference = C6;
+ValeurCmp = 0.1uF;
+IdModule  = SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DA1A09;
+Reference = C7;
+ValeurCmp = 4.7uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DA23A5;
+Reference = C8;
+ValeurCmp = 0.1uF;
+IdModule  = SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DA0676;
+Reference = CON1;
+ValeurCmp = USB-MINI-B;
+IdModule  = USB_MINI_B;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DA1344;
+Reference = FB1;
+ValeurCmp = 600R/1.3A;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DAA105;
+Reference = JP1;
+ValeurCmp = JUMPER;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DAA2A9;
+Reference = P1;
+ValeurCmp = CONN_5;
+IdModule  = SIL-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DAA2B8;
+Reference = P2;
+ValeurCmp = CONN_5;
+IdModule  = SIL-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DA08A7;
+Reference = R1;
+ValeurCmp = 1M;
+IdModule  = SM0402_r;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DA16C7;
+Reference = R2;
+ValeurCmp = 10k;
+IdModule  = SM0402_r;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DA1227;
+Reference = R3;
+ValeurCmp = 27R;
+IdModule  = SM0402_r;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DA1236;
+Reference = R4;
+ValeurCmp = 27R;
+IdModule  = SM0402_r;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DA065D;
+Reference = U1;
+ValeurCmp = FT234XD;
+IdModule  = DFN12;
+EndCmp
+
+EndListe
