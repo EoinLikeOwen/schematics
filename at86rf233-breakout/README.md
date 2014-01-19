@@ -6,4 +6,4 @@ This is a schematic and layout for a small breakout board for Atmel's AT86RF233 
 Status
 =======
 
-I have received 3 of these boards from [OSH Park](http://oshpark.com) and a solder screen from [OHARA RP](http://ohararp.com) but I have not yet purchased the parts to assemble them - I will probably order them this week.
+Built these, but I was too sloppy with my solder paste application and haven't had a chance to rework them.  Maybe someday.  For now this is an abandoned project.

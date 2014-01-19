@@ -6,4 +6,4 @@ Description
 Status
 =======
 
-Ordered, not yet received (so, obviously, not tested).  But it's pretty darn simple, I don't expect any issues.
+Ordered, assembled, works as expected.
