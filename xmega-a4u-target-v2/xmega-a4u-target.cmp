@@ -1,0 +1,178 @@
+Cmp-Mod V01 Created by CvPcb (2013-june-11)-stable date = Mon 20 Jan 2014 08:56:02 AM PST
+
+BeginCmp
+TimeStamp = /52DC5AC5;
+Reference = C1;
+ValeurCmp = 10pF;
+IdModule  = SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DC5AD4;
+Reference = C2;
+ValeurCmp = 10pF;
+IdModule  = SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DCA165;
+Reference = C3;
+ValeurCmp = 0.1uF;
+IdModule  = SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DCA18A;
+Reference = C4;
+ValeurCmp = 0.1uF;
+IdModule  = SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DCA190;
+Reference = C5;
+ValeurCmp = 0.1uF;
+IdModule  = SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DCA924;
+Reference = C6;
+ValeurCmp = 3.3uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DCAA68;
+Reference = C7;
+ValeurCmp = 0.1uF;
+IdModule  = SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DC730C;
+Reference = C8;
+ValeurCmp = 4.7nF;
+IdModule  = SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DCB14A;
+Reference = C9;
+ValeurCmp = 0.1uF;
+IdModule  = SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DCB581;
+Reference = C10;
+ValeurCmp = 1uF;
+IdModule  = SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DC442C;
+Reference = CON1;
+ValeurCmp = USB-MINI-B;
+IdModule  = USB_MINI_B;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DCA936;
+Reference = FB1;
+ValeurCmp = FILTER;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DC440E;
+Reference = IC1;
+ValeurCmp = ATXMEGA128A4U-M;
+IdModule  = QFN44_7_EP;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DC62E8;
+Reference = P1;
+ValeurCmp = PORTE;
+IdModule  = SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DC6388;
+Reference = P2;
+ValeurCmp = PORTD;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DC60FD;
+Reference = P3;
+ValeurCmp = PORTA;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DC6269;
+Reference = P4;
+ValeurCmp = PORTB;
+IdModule  = SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DC6192;
+Reference = P5;
+ValeurCmp = PORTC;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DCBB23;
+Reference = P6;
+ValeurCmp = PWR/RST;
+IdModule  = SIL-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DC5C06;
+Reference = P7;
+ValeurCmp = PDI;
+IdModule  = pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DC9DEB;
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = SM0402_r;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DC72FD;
+Reference = R2;
+ValeurCmp = 1M;
+IdModule  = SM0402_r;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DC591D;
+Reference = U1;
+ValeurCmp = TSX-3225;
+IdModule  = TSX-3225;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DCB3FB;
+Reference = U2;
+ValeurCmp = AAT3220;
+IdModule  = SC59;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DC8BF2;
+Reference = U3;
+ValeurCmp = TPD2E001IDRLRQ1;
+IdModule  = SOT553;
+EndCmp
+
+EndListe

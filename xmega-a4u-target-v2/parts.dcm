@@ -1,0 +1,39 @@
+EESchema-DOCLIB  Version 2.0  Date: Mon 20 Jan 2014 08:57:56 AM PST
+#
+$CMP AAT3220
+D LM1084IS-3.3, 5A 27V Linear Regulator, Fixed Output 3.3V, TO-263
+K Voltage Regulator Adjustable 5A Positive
+F http://www.ti.com/lit/ds/symlink/lm1084.pdf
+$ENDCMP
+#
+$CMP ATXMEGA128A4U-M
+D ATXMEGA128A4U, QFN44, 128k Flash, 8k Boot, 8k SRAM, 2k EEPROM, JTAG, USB
+K AVR 8/16bit Microcontroller XMegaAVR
+F http://www.atmel.com/Images/doc8387.pdf
+$ENDCMP
+#
+$CMP ATXMEGA16A4U-M
+D ATXMEGA16A4U, QFN44, 16k Flash, 4k Boot, 2k SRAM, 1k EEPROM, JTAG, USB
+K AVR 8/16bit Microcontroller XMegaAVR
+F http://www.atmel.com/Images/doc8387.pdf
+$ENDCMP
+#
+$CMP ATXMEGA32A4U-M
+D ATXMEGA32A4U, QFN44, 32k Flash, 4k Boot, 4k SRAM, 1k EEPROM, JTAG, USB
+K AVR 8/16bit Microcontroller XMegaAVR
+F http://www.atmel.com/Images/doc8387.pdf
+$ENDCMP
+#
+$CMP ATXMEGA64A4U-M
+D ATXMEGA64A4U, QFN44, 64k Flash, 4k Boot, 4k SRAM, 2k EEPROM, JTAG, USB
+K AVR 8/16bit Microcontroller XMegaAVR
+F http://www.atmel.com/Images/doc8387.pdf
+$ENDCMP
+#
+$CMP LM1084IS-5.0/NOPB
+D LM1084IS-5.0, 5A 27V Linear Regulator, Fixed Output 5.0V, TO-263
+K Voltage Regulator 5A Positive
+F http://www.ti.com/lit/ds/symlink/lm1084.pdf
+$ENDCMP
+#
+#End Doc Library
