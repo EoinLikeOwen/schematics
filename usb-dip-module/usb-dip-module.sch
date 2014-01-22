@@ -1,0 +1,303 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:parts
+LIBS:usb-dip-module-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "21 jan 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L USB-MINI-B CON1
+U 1 1 52DE9E73
+P 5350 3500
+F 0 "CON1" H 5100 3950 60  0000 C CNN
+F 1 "USB-MINI-B" H 5300 3000 60  0000 C CNN
+F 2 "~" H 5350 3500 60  0000 C CNN
+F 3 "~" H 5350 3500 60  0000 C CNN
+	1    5350 3500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 52DE9E82
+P 5350 4200
+F 0 "R1" V 5430 4200 40  0000 C CNN
+F 1 "1M" V 5357 4201 40  0000 C CNN
+F 2 "~" V 5280 4200 30  0000 C CNN
+F 3 "~" H 5350 4200 30  0000 C CNN
+	1    5350 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C1
+U 1 1 52DE9E91
+P 5350 4400
+F 0 "C1" H 5350 4500 40  0000 L CNN
+F 1 "4.7nF" H 5356 4315 40  0000 L CNN
+F 2 "~" H 5388 4250 30  0000 C CNN
+F 3 "~" H 5350 4400 60  0000 C CNN
+	1    5350 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L AAT3220 U2
+U 1 1 52DEA0DE
+P 7650 4850
+F 0 "U2" H 7850 4650 40  0000 C CNN
+F 1 "AAT3220" H 7650 5050 40  0000 C CNN
+F 2 "SC59" H 7650 4950 30  0000 C CIN
+F 3 "~" H 7650 4850 60  0000 C CNN
+	1    7650 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 52DEA0ED
+P 7150 5100
+F 0 "C2" H 7150 5200 40  0000 L CNN
+F 1 "0.1uF" H 7156 5015 40  0000 L CNN
+F 2 "~" H 7188 4950 30  0000 C CNN
+F 3 "~" H 7150 5100 60  0000 C CNN
+	1    7150 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C3
+U 1 1 52DEA0FC
+P 8150 5100
+F 0 "C3" H 8150 5200 40  0000 L CNN
+F 1 "1uF" H 8156 5015 40  0000 L CNN
+F 2 "~" H 8188 4950 30  0000 C CNN
+F 3 "~" H 8150 5100 60  0000 C CNN
+	1    8150 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L TPD2E001IDRLRQ1 U1
+U 1 1 52DEA10B
+P 6700 4000
+F 0 "U1" H 6700 4250 60  0000 C CNN
+F 1 "TPD2E001IDRLRQ1" H 6750 3800 60  0000 C CNN
+F 2 "~" H 6700 4000 60  0000 C CNN
+F 3 "~" H 6700 4000 60  0000 C CNN
+	1    6700 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 3200 4700 3200
+Wire Wire Line
+	4700 3200 4700 4300
+Wire Wire Line
+	4700 4300 5000 4300
+Wire Wire Line
+	5000 4200 5000 4400
+Wire Wire Line
+	5000 4200 5100 4200
+Wire Wire Line
+	5000 4400 5150 4400
+Connection ~ 5000 4300
+Wire Wire Line
+	4800 3800 4700 3800
+Connection ~ 4700 3800
+Wire Wire Line
+	4700 3650 4800 3650
+Connection ~ 4700 3650
+Wire Wire Line
+	4800 3350 4700 3350
+Connection ~ 4700 3350
+$Comp
+L CONN_4 P2
+U 1 1 52DEA169
+P 8300 3800
+F 0 "P2" V 8250 3800 50  0000 C CNN
+F 1 "CONN_4" V 8350 3800 50  0000 C CNN
+F 2 "~" H 8300 3800 60  0000 C CNN
+F 3 "~" H 8300 3800 60  0000 C CNN
+	1    8300 3800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_4 P1
+U 1 1 52DEA178
+P 9800 3800
+F 0 "P1" V 9750 3800 50  0000 C CNN
+F 1 "CONN_4" V 9850 3800 50  0000 C CNN
+F 2 "~" H 9800 3800 60  0000 C CNN
+F 3 "~" H 9800 3800 60  0000 C CNN
+	1    9800 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 3800 6000 3800
+Wire Wire Line
+	6000 3800 6000 4400
+Wire Wire Line
+	6000 4300 5700 4300
+Wire Wire Line
+	5700 4200 5700 4400
+Wire Wire Line
+	5700 4200 5600 4200
+Wire Wire Line
+	5700 4400 5550 4400
+Connection ~ 5700 4300
+Wire Wire Line
+	6300 3850 6200 3850
+Wire Wire Line
+	6200 3850 6200 3200
+Wire Wire Line
+	5900 3200 7500 3200
+Wire Wire Line
+	5900 3350 7500 3350
+Wire Wire Line
+	7200 3350 7200 3850
+Wire Wire Line
+	7200 3850 7100 3850
+Wire Wire Line
+	5900 3500 7500 3500
+Wire Wire Line
+	6100 3500 6100 4050
+Wire Wire Line
+	7150 4900 7150 4800
+Wire Wire Line
+	7000 4800 7250 4800
+Wire Wire Line
+	8050 4800 8300 4800
+Wire Wire Line
+	8150 4800 8150 4900
+Wire Wire Line
+	8150 5400 8150 5300
+Wire Wire Line
+	7150 5400 8150 5400
+Wire Wire Line
+	7150 5400 7150 5300
+Wire Wire Line
+	7650 5100 7650 5500
+Connection ~ 7650 5400
+$Comp
+L GND #PWR3
+U 1 1 52DEA35A
+P 7650 5500
+F 0 "#PWR3" H 7650 5500 30  0001 C CNN
+F 1 "GND" H 7650 5430 30  0001 C CNN
+F 2 "" H 7650 5500 60  0000 C CNN
+F 3 "" H 7650 5500 60  0000 C CNN
+	1    7650 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 4050 6300 4050
+$Comp
+L GND #PWR2
+U 1 1 52DEA3F6
+P 7200 4150
+F 0 "#PWR2" H 7200 4150 30  0001 C CNN
+F 1 "GND" H 7200 4080 30  0001 C CNN
+F 2 "" H 7200 4150 60  0000 C CNN
+F 3 "" H 7200 4150 60  0000 C CNN
+	1    7200 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 4150 7200 4050
+Wire Wire Line
+	7200 4050 7100 4050
+$Comp
+L GND #PWR1
+U 1 1 52DEA42A
+P 6000 4400
+F 0 "#PWR1" H 6000 4400 30  0001 C CNN
+F 1 "GND" H 6000 4330 30  0001 C CNN
+F 2 "" H 6000 4400 60  0000 C CNN
+F 3 "" H 6000 4400 60  0000 C CNN
+	1    6000 4400
+	1    0    0    -1  
+$EndComp
+Connection ~ 6000 4300
+Text GLabel 7500 3200 2    60   Input ~ 0
+VBUS
+Connection ~ 6200 3200
+Connection ~ 7200 3350
+Connection ~ 6100 3500
+Text GLabel 7500 3500 2    60   Input ~ 0
+D+
+Text GLabel 7500 3350 2    60   Input ~ 0
+D-
+Text GLabel 7500 3650 2    60   Input ~ 0
+ID
+Wire Wire Line
+	5900 3650 7500 3650
+Text GLabel 7000 4800 0    60   Input ~ 0
+VBUS
+Connection ~ 7150 4800
+Text GLabel 8300 4800 2    60   Input ~ 0
+VREG
+Connection ~ 8150 4800
+Text GLabel 8650 3650 2    60   Input ~ 0
+VBUS
+Text GLabel 8650 3950 2    60   Input ~ 0
+D+
+Text GLabel 8650 3850 2    60   Input ~ 0
+D-
+Text GLabel 9450 3950 0    60   Input ~ 0
+ID
+Text GLabel 9450 3650 0    60   Input ~ 0
+VREG
+Wire Wire Line
+	8650 3750 9450 3750
+Wire Wire Line
+	9050 3750 9050 4050
+Wire Wire Line
+	9050 3850 9450 3850
+Connection ~ 9050 3850
+$Comp
+L GND #PWR4
+U 1 1 52DEA6A6
+P 9050 4050
+F 0 "#PWR4" H 9050 4050 30  0001 C CNN
+F 1 "GND" H 9050 3980 30  0001 C CNN
+F 2 "" H 9050 4050 60  0000 C CNN
+F 3 "" H 9050 4050 60  0000 C CNN
+	1    9050 4050
+	-1   0    0    -1  
+$EndComp
+Connection ~ 9050 3750
+$EndSCHEMATC

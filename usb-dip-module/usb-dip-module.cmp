@@ -1,0 +1,66 @@
+Cmp-Mod V01 Created by CvPcb (2013-june-11)-stable date = Tue 21 Jan 2014 08:47:53 AM PST
+
+BeginCmp
+TimeStamp = /52DE9E91;
+Reference = C1;
+ValeurCmp = 4.7nF;
+IdModule  = SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DEA0ED;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DEA0FC;
+Reference = C3;
+ValeurCmp = 1uF;
+IdModule  = SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DE9E73;
+Reference = CON1;
+ValeurCmp = USB-MINI-B;
+IdModule  = USB_MINI_B;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DEA178;
+Reference = P1;
+ValeurCmp = CONN_4;
+IdModule  = PIN_ARRAY_4x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DEA169;
+Reference = P2;
+ValeurCmp = CONN_4;
+IdModule  = PIN_ARRAY_4x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DE9E82;
+Reference = R1;
+ValeurCmp = 1M;
+IdModule  = SM0402_r;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DEA10B;
+Reference = U1;
+ValeurCmp = TPD2E001IDRLRQ1;
+IdModule  = SOT553;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DEA0DE;
+Reference = U2;
+ValeurCmp = AAT3220;
+IdModule  = SC59;
+EndCmp
+
+EndListe

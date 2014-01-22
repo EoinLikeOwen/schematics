@@ -1,11 +1,8 @@
-update=Mon 20 Jan 2014 09:01:46 PM PST
+update=Tue 21 Jan 2014 08:28:58 AM PST
 version=1
 last_client=pcbnew
-[cvpcb]
+[general]
 version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [eeschema]
 version=1
 LibDir=
@@ -45,17 +42,20 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=parts
-[general]
+LibName31=/home/mokus/Projects/schematics/kicad/parts
+[cvpcb]
 version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=
 UseCmpFile=1
-PadDrill="    0.899160"
-PadDrillOvalY="    0.899160"
-PadSizeH="    1.198880"
-PadSizeV="    1.198880"
+PadDrill="    0.330200"
+PadDrillOvalY="    0.330200"
+PadSizeH="    0.508000"
+PadSizeV="    0.508000"
 PcbTextSizeV="    1.500000"
 PcbTextSizeH="    1.500000"
 PcbTextThickness="    0.300000"
@@ -77,12 +77,11 @@ LibName5=divers
 LibName6=smd_capacitors
 LibName7=smd_resistors
 LibName8=smd_crystal&oscillator
-LibName9=smd_dil
-LibName10=smd_transistors
-LibName11=libcms
-LibName12=display
-LibName13=led
-LibName14=dip_sockets
-LibName15=pga_sockets
-LibName16=valves
-LibName17=parts
+LibName9=smd_transistors
+LibName10=libcms
+LibName11=display
+LibName12=led
+LibName13=dip_sockets
+LibName14=pga_sockets
+LibName15=valves
+LibName16=/home/mokus/Projects/schematics/kicad/parts
