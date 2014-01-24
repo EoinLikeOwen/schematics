@@ -1,0 +1,157 @@
+Cmp-Mod V01 Created by CvPcb (2013-june-11)-stable date = Thu 23 Jan 2014 01:37:52 PM PST
+
+BeginCmp
+TimeStamp = /52E16104;
+Reference = C1;
+ValeurCmp = 1uF;
+IdModule  = c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E1677B;
+Reference = C2;
+ValeurCmp = 1uF;
+IdModule  = c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E167D2;
+Reference = C3;
+ValeurCmp = 1uF;
+IdModule  = c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E160F5;
+Reference = C4;
+ValeurCmp = 4.7uF;
+IdModule  = c_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E16775;
+Reference = C5;
+ValeurCmp = 4.7uF;
+IdModule  = c_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E167CC;
+Reference = C6;
+ValeurCmp = 4.7uF;
+IdModule  = c_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E16326;
+Reference = D1;
+ValeurCmp = DIODESCH;
+IdModule  = DO-214AC(SMA);
+EndCmp
+
+BeginCmp
+TimeStamp = /52E167A8;
+Reference = D2;
+ValeurCmp = DIODESCH;
+IdModule  = DO-214AC(SMA);
+EndCmp
+
+BeginCmp
+TimeStamp = /52E167FF;
+Reference = D3;
+ValeurCmp = DIODESCH;
+IdModule  = DO-214AC(SMA);
+EndCmp
+
+BeginCmp
+TimeStamp = /52E16813;
+Reference = K1;
+ValeurCmp = LED+;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E16822;
+Reference = K2;
+ValeurCmp = LED-;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E16113;
+Reference = L1;
+ValeurCmp = 33uH;
+IdModule  = ind_6x6;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E16781;
+Reference = L2;
+ValeurCmp = 33uH;
+IdModule  = ind_6x6;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E167D8;
+Reference = L3;
+ValeurCmp = 33uH;
+IdModule  = ind_6x6;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E16840;
+Reference = P1;
+ValeurCmp = VIN;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E16831;
+Reference = P2;
+ValeurCmp = CTRL;
+IdModule  = SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E16131;
+Reference = R1;
+ValeurCmp = 0.3R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E16787;
+Reference = R2;
+ValeurCmp = 0.3R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E167DE;
+Reference = R3;
+ValeurCmp = 0.3R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E15FE2;
+Reference = U1;
+ValeurCmp = AL8805;
+IdModule  = sot25;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E16763;
+Reference = U2;
+ValeurCmp = AL8805;
+IdModule  = sot25;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E167BA;
+Reference = U3;
+ValeurCmp = AL8805;
+IdModule  = sot25;
+EndCmp
+
+EndListe

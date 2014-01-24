@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Tue 21 Jan 2014 07:33:51 AM PST
+PCBNEW-LibModule-V1  Thu 23 Jan 2014 01:19:24 PM PST
 # encoding utf-8
 Units mm
 $INDEX
@@ -6,6 +6,8 @@ HOLE
 QFN44_7_EP
 SC59
 TSX-3225
+ind_6x6
+sot25
 $EndINDEX
 $MODULE HOLE
 Po 0 0 0 15 52DE9358 00000000 ~~
@@ -468,4 +470,76 @@ Ne 0 ""
 Po 0 0
 $EndPAD
 $EndMODULE TSX-3225
+$MODULE ind_6x6
+Po 0 0 0 15 52E18758 00000000 ~~
+Li ind_6x6
+Sc 0
+AR 
+Op 0 0 0
+T0 0 4.3 1 1 0 0.15 N V 21 N "ind_6x6"
+T1 0.5 0 1 1 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "2" R 2 6 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 2.15
+$EndPAD
+$PAD
+Sh "1" R 2 6 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -2.15
+$EndPAD
+$EndMODULE ind_6x6
+$MODULE sot25
+Po 0 0 0 15 52E18026 00000000 ~~
+Li sot25
+Sc 0
+AR 
+Op 0 0 0
+T0 0 0 0.7 0.7 0 0.15 N V 21 N "sot25"
+T1 0.2 -2.5 1 1 0 0.15 N I 21 N "VAL**"
+DS -1.5 -0.8 1.5 -0.8 0.15 21
+DS 1.5 -0.8 1.5 0.8 0.15 21
+DS 1.5 0.8 -1.4 0.8 0.15 21
+DS -1.4 0.8 -1.5 0.8 0.15 21
+DS -1.5 0.8 -1.5 -0.8 0.15 21
+$PAD
+Sh "3" R 0.55 0.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.95 -1.2
+$EndPAD
+$PAD
+Sh "2" R 0.55 0.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -1.2
+$EndPAD
+$PAD
+Sh "1" R 0.55 0.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.95 -1.2
+$EndPAD
+$PAD
+Sh "4" R 0.55 0.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.95 1.2
+$EndPAD
+$PAD
+Sh "5" R 0.55 0.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.95 1.2
+$EndPAD
+$EndMODULE sot25
 $EndLIBRARY
