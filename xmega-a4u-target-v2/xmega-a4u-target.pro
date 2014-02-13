@@ -1,4 +1,4 @@
-update=Tue 21 Jan 2014 08:28:58 AM PST
+update=Mon 03 Feb 2014 03:14:20 PM PST
 version=1
 last_client=pcbnew
 [general]
@@ -52,10 +52,10 @@ EquName1=devcms
 version=1
 LastNetListRead=
 UseCmpFile=1
-PadDrill="    0.330200"
-PadDrillOvalY="    0.330200"
-PadSizeH="    0.508000"
-PadSizeV="    0.508000"
+PadDrill="    0.000000"
+PadDrillOvalY="    0.000000"
+PadSizeH="    4.699762"
+PadSizeV="    4.699762"
 PcbTextSizeV="    1.500000"
 PcbTextSizeH="    1.500000"
 PcbTextThickness="    0.300000"
