@@ -65,3 +65,4 @@ Icon?
 *.kicad_pcb-bak
 *-cache.lib
 *.bck
+_autosave*
