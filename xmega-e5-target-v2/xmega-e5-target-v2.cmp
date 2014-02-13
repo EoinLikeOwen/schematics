@@ -1,0 +1,108 @@
+Cmp-Mod V01 Created by CvPcb (2013-june-11)-stable date = Sun 26 Jan 2014 09:05:07 PM PST
+
+BeginCmp
+TimeStamp = /52E5E475;
+Reference = C1;
+ValeurCmp = 10pF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E5E484;
+Reference = C2;
+ValeurCmp = 10pF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E5EA7C;
+Reference = C3;
+ValeurCmp = 4.7uF;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E5EA8B;
+Reference = C4;
+ValeurCmp = 0.1uF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E5F059;
+Reference = C5;
+ValeurCmp = 10uF;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E5EAA9;
+Reference = C6;
+ValeurCmp = 0.1uF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E5EAC5;
+Reference = FB1;
+ValeurCmp = FILTER;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E5FA54;
+Reference = K1;
+ValeurCmp = PWR/RST;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E5E0B4;
+Reference = P1;
+ValeurCmp = PORT A;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E5E722;
+Reference = P2;
+ValeurCmp = PDI;
+IdModule  = pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E5E08C;
+Reference = P3;
+ValeurCmp = PORT C;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E5E20D;
+Reference = P4;
+ValeurCmp = PORT D;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E5EE41;
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = SM0402_r;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E5E07D;
+Reference = U1;
+ValeurCmp = XMEGA-E5;
+IdModule  = QFN32;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E5E39C;
+Reference = U2;
+ValeurCmp = TSX-3225;
+IdModule  = TSX-3225;
+EndCmp
+
+EndListe
