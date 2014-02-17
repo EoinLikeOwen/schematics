@@ -1,7 +1,8 @@
-PCBNEW-LibModule-V1  Sun 26 Jan 2014 01:23:24 PM PST
+PCBNEW-LibModule-V1  Thu 13 Feb 2014 08:27:42 PM PST
 # encoding utf-8
 Units mm
 $INDEX
+BGA9
 HOLE
 LUXEON-4014
 QFN44_7_EP
@@ -10,6 +11,101 @@ TSX-3225
 ind_6x6
 sot25
 $EndINDEX
+$MODULE BGA9
+Po 0 0 0 15 52FD9B3B 00000000 ~~
+Li BGA9
+Sc 0
+AR 
+Op 0 0 0
+T0 0 1.5 1 1 0 0.15 N I 21 N "BGA9"
+T1 0 -1.3 1 1 0 0.15 N I 21 N "VAL**"
+DS 0.7 0.7 0.7 -0.7 0.15 21
+DS 0.7 -0.7 -0.5 -0.7 0.15 21
+DS -0.5 -0.7 -0.7 -0.5 0.15 21
+DS -0.7 -0.5 -0.7 0.7 0.15 21
+DS -0.7 0.7 0.7 0.7 0.15 21
+$PAD
+Sh "A3" C 0.23 0.23 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.4 -0.4
+.SolderMask 0.04
+.LocalClearance 0.16
+$EndPAD
+$PAD
+Sh "B1" C 0.23 0.23 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.4 0
+.SolderMask 0.04
+.LocalClearance 0.16
+$EndPAD
+$PAD
+Sh "C1" C 0.23 0.23 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.4 0.4
+.SolderMask 0.04
+.LocalClearance 0.16
+$EndPAD
+$PAD
+Sh "C2" C 0.23 0.23 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0.4
+.SolderMask 0.04
+.LocalClearance 0.16
+$EndPAD
+$PAD
+Sh "C3" C 0.23 0.23 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.4 0.4
+.SolderMask 0.04
+.LocalClearance 0.16
+$EndPAD
+$PAD
+Sh "B3" C 0.23 0.23 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.4 0
+.SolderMask 0.04
+.LocalClearance 0.16
+$EndPAD
+$PAD
+Sh "A2" C 0.23 0.23 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -0.4
+.SolderMask 0.04
+.LocalClearance 0.16
+$EndPAD
+$PAD
+Sh "A1" C 0.23 0.23 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.4 -0.4
+.SolderMask 0.04
+.LocalClearance 0.16
+$EndPAD
+$PAD
+Sh "B2" C 0.23 0.23 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+.SolderMask 0.04
+.LocalClearance 0.16
+$EndPAD
+$EndMODULE BGA9
 $MODULE HOLE
 Po 0 0 0 15 52DE9358 00000000 ~~
 Li HOLE
