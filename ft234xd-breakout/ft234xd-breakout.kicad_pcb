@@ -15,14 +15,14 @@
   (page A3)
   (layers
     (15 F.Cu signal)
-    (0 B.Cu signal)
-    (16 B.Adhes user)
+    (0 B.Cu signal hide)
+    (16 B.Adhes user hide)
     (17 F.Adhes user)
-    (18 B.Paste user)
+    (18 B.Paste user hide)
     (19 F.Paste user)
-    (20 B.SilkS user)
+    (20 B.SilkS user hide)
     (21 F.SilkS user)
-    (22 B.Mask user)
+    (22 B.Mask user hide)
     (23 F.Mask user)
     (24 Dwgs.User user)
     (25 Cmts.User user)
@@ -57,7 +57,7 @@
     (pad_drill 0)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFFF9F)
+    (visible_elements FFFFBF9F)
     (pcbplotparams
       (layerselection 284983297)
       (usegerberextensions true)
@@ -146,12 +146,12 @@
     (uvia_drill 0.127)
   )
 
-  (module USB_MINI_B   locked (layer B.Cu) (tedit 53019716) (tstamp 530191CA)
+  (module USB_MINI_B   locked (layer B.Cu) (tedit 5356CF64) (tstamp 530191CA)
     (at 202.565 82.55)
     (descr "USB Mini-B 5-pin SMD connector")
     (tags "USB, Mini-B, connector")
     (path /52DA0676)
-    (fp_text reference CON1 (at 0 -6.90118) (layer B.SilkS)
+    (fp_text reference CON1 (at 0 -6.90118) (layer B.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.2032)) (justify mirror))
     )
     (fp_text value USB-MINI-B (at 0 7.0993) (layer B.SilkS) hide
@@ -202,14 +202,14 @@
     )
   )
 
-  (module SM0805 (layer F.Cu) (tedit 5091495C) (tstamp 530191D7)
+  (module SM0805 (layer F.Cu) (tedit 5356CF8E) (tstamp 530191D7)
     (at 205.994 80.264)
     (path /52DA1A09)
     (attr smd)
-    (fp_text reference C7 (at 0 -0.3175) (layer F.SilkS)
+    (fp_text reference C7 (at 0.0635 0 90) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.10922)))
     )
-    (fp_text value 4.7uF (at 0 0.381) (layer F.SilkS)
+    (fp_text value 4.7uF (at 0 0.381) (layer F.SilkS) hide
       (effects (font (size 0.50038 0.50038) (thickness 0.10922)))
     )
     (fp_circle (center -1.651 0.762) (end -1.651 0.635) (layer F.SilkS) (width 0.09906))
@@ -234,11 +234,11 @@
     )
   )
 
-  (module SM0603 (layer F.Cu) (tedit 4E43A3D1) (tstamp 530191E1)
+  (module SM0603 (layer F.Cu) (tedit 5356CFAE) (tstamp 530191E1)
     (at 199.644 78.486 180)
     (path /5301925E)
     (attr smd)
-    (fp_text reference JP1 (at 0 0 180) (layer F.SilkS)
+    (fp_text reference JP1 (at 0 0 270) (layer F.SilkS)
       (effects (font (size 0.508 0.4572) (thickness 0.1143)))
     )
     (fp_text value JUMPER (at 0 0 180) (layer F.SilkS) hide
@@ -263,11 +263,11 @@
     )
   )
 
-  (module SM0603 (layer F.Cu) (tedit 4E43A3D1) (tstamp 530191EB)
+  (module SM0603 (layer F.Cu) (tedit 5356CF92) (tstamp 530191EB)
     (at 207.01 82.55 90)
     (path /52DA1344)
     (attr smd)
-    (fp_text reference FB1 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference FB1 (at -0.0635 0 180) (layer F.SilkS)
       (effects (font (size 0.508 0.4572) (thickness 0.1143)))
     )
     (fp_text value 600R/1.3A (at 0 0 90) (layer F.SilkS) hide
@@ -292,11 +292,11 @@
     )
   )
 
-  (module SM0402_r (layer F.Cu) (tedit 5141C458) (tstamp 530191F7)
+  (module SM0402_r (layer F.Cu) (tedit 5356CF96) (tstamp 530191F7)
     (at 204.47 83.82 270)
     (path /52DA1227)
     (attr smd)
-    (fp_text reference R3 (at 0 0 270) (layer F.SilkS)
+    (fp_text reference R3 (at 0 0 360) (layer F.SilkS)
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
     )
     (fp_text value 27R (at 0.09906 0 270) (layer F.SilkS) hide
@@ -323,11 +323,11 @@
     )
   )
 
-  (module SM0402_r (layer F.Cu) (tedit 5141C458) (tstamp 53019203)
+  (module SM0402_r (layer F.Cu) (tedit 5356CFA5) (tstamp 53019203)
     (at 204.47 82.042 90)
     (path /52DA1236)
     (attr smd)
-    (fp_text reference R4 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference R4 (at 0 0 180) (layer F.SilkS)
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
     )
     (fp_text value 27R (at 0.09906 0 90) (layer F.SilkS) hide
@@ -354,11 +354,11 @@
     )
   )
 
-  (module SM0402_r (layer F.Cu) (tedit 5141C458) (tstamp 5301920F)
+  (module SM0402_r (layer F.Cu) (tedit 5356CFB5) (tstamp 5301920F)
     (at 201.93 78.232)
     (path /52DA16C7)
     (attr smd)
-    (fp_text reference R2 (at 0 0) (layer F.SilkS)
+    (fp_text reference R2 (at 0 0 90) (layer F.SilkS)
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
     )
     (fp_text value 10k (at 0.09906 0) (layer F.SilkS) hide
@@ -385,11 +385,11 @@
     )
   )
 
-  (module SM0402_r (layer F.Cu) (tedit 5141C458) (tstamp 5301921B)
+  (module SM0402_r (layer F.Cu) (tedit 5356CFD4) (tstamp 5301921B)
     (at 207.01 85.344 180)
     (path /52DA08A7)
     (attr smd)
-    (fp_text reference R1 (at 0 0 180) (layer F.SilkS)
+    (fp_text reference R1 (at 0 0 270) (layer F.SilkS)
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
     )
     (fp_text value 1M (at 0.09906 0 180) (layer F.SilkS) hide
@@ -416,11 +416,11 @@
     )
   )
 
-  (module SM0402_c (layer F.Cu) (tedit 516FD0AE) (tstamp 53019227)
+  (module SM0402_c (layer F.Cu) (tedit 5356CFD3) (tstamp 53019227)
     (at 207.01 84.328 180)
     (path /52DA0BD5)
     (attr smd)
-    (fp_text reference C3 (at 0 0 180) (layer F.SilkS)
+    (fp_text reference C3 (at 0 0 270) (layer F.SilkS)
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
     )
     (fp_text value 10nF (at 0.09906 0 180) (layer F.SilkS) hide
@@ -447,11 +447,11 @@
     )
   )
 
-  (module SM0402_c (layer F.Cu) (tedit 516FD0AE) (tstamp 53019233)
+  (module SM0402_c (layer F.Cu) (tedit 5356CF9A) (tstamp 53019233)
     (at 205.486 82.042 90)
     (path /52DA10DA)
     (attr smd)
-    (fp_text reference C4 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference C4 (at 0 0 180) (layer F.SilkS)
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
     )
     (fp_text value 47pF (at 0.09906 0 90) (layer F.SilkS) hide
@@ -478,11 +478,11 @@
     )
   )
 
-  (module SM0402_c (layer F.Cu) (tedit 516FD0AE) (tstamp 5301923F)
+  (module SM0402_c (layer F.Cu) (tedit 5356CF98) (tstamp 5301923F)
     (at 205.486 83.82 270)
     (path /52DA10E9)
     (attr smd)
-    (fp_text reference C5 (at 0 0 270) (layer F.SilkS)
+    (fp_text reference C5 (at 0 0 360) (layer F.SilkS)
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
     )
     (fp_text value 47pF (at 0.09906 0 270) (layer F.SilkS) hide
@@ -509,11 +509,11 @@
     )
   )
 
-  (module SM0402_c (layer F.Cu) (tedit 516FD0AE) (tstamp 5301924B)
+  (module SM0402_c (layer F.Cu) (tedit 5356CFD5) (tstamp 5301924B)
     (at 207.01 86.36 180)
     (path /52DA08E2)
     (attr smd)
-    (fp_text reference C1 (at 0 0 180) (layer F.SilkS)
+    (fp_text reference C1 (at 0 0 270) (layer F.SilkS)
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
     )
     (fp_text value 4.7nF (at 0.09906 0 180) (layer F.SilkS) hide
@@ -540,11 +540,11 @@
     )
   )
 
-  (module SM0402_c (layer F.Cu) (tedit 516FD0AE) (tstamp 53019257)
+  (module SM0402_c (layer F.Cu) (tedit 5356CFA8) (tstamp 53019257)
     (at 200.2155 85.598 180)
     (path /52DA22C9)
     (attr smd)
-    (fp_text reference C6 (at 0 0 180) (layer F.SilkS)
+    (fp_text reference C6 (at 0 0 270) (layer F.SilkS)
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
     )
     (fp_text value 0.1uF (at 0.09906 0 180) (layer F.SilkS) hide
@@ -571,11 +571,11 @@
     )
   )
 
-  (module SM0402_c (layer F.Cu) (tedit 516FD0AE) (tstamp 53019263)
+  (module SM0402_c (layer F.Cu) (tedit 5356CFBD) (tstamp 53019263)
     (at 200.152 79.756 180)
     (path /52DA23A5)
     (attr smd)
-    (fp_text reference C8 (at 0 0 180) (layer F.SilkS)
+    (fp_text reference C8 (at 1.016 0.0635 270) (layer F.SilkS)
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
     )
     (fp_text value 0.1uF (at 0.09906 0 180) (layer F.SilkS) hide
