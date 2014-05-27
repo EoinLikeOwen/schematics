@@ -1,0 +1,45 @@
+Cmp-Mod V01 Created by CvPcb (2013-june-11)-stable date = Tue 27 May 2014 12:45:28 PM PDT
+
+BeginCmp
+TimeStamp = /5384E884;
+Reference = C101;
+ValeurCmp = 25pF;
+IdModule  = SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /5384E893;
+Reference = C102;
+ValeurCmp = 25pF;
+IdModule  = SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /5384E9CF;
+Reference = C104;
+ValeurCmp = 25pF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5384E9D5;
+Reference = C105;
+ValeurCmp = 25pF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /537D5FEC;
+Reference = P101;
+ValeurCmp = CONN_6;
+IdModule  = pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /537D6005;
+Reference = P102;
+ValeurCmp = CONN_10;
+IdModule  = PIN_ARRAY_5x2;
+EndCmp
+
+EndListe

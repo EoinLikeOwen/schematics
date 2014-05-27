@@ -1,0 +1,239 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:pdi-dongle-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "27 may 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_6 P101
+U 1 1 537D5FEC
+P 7250 3450
+F 0 "P101" V 7200 3450 60  0000 C CNN
+F 1 "CONN_6" V 7300 3450 60  0000 C CNN
+F 2 "~" H 7250 3450 60  0000 C CNN
+F 3 "~" H 7250 3450 60  0000 C CNN
+	1    7250 3450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_10 P102
+U 1 1 537D6005
+P 8850 3450
+F 0 "P102" V 8800 3450 60  0000 C CNN
+F 1 "CONN_10" V 8900 3450 60  0000 C CNN
+F 2 "~" H 8850 3450 60  0000 C CNN
+F 3 "~" H 8850 3450 60  0000 C CNN
+	1    8850 3450
+	1    0    0    -1  
+$EndComp
+Text Label 7900 3300 2    60   ~ 0
+VREF
+Text Label 7900 3200 2    60   ~ 0
+PDI_D
+Text Label 7900 3600 2    60   ~ 0
+PDI_C
+Wire Wire Line
+	7600 3200 7900 3200
+Wire Wire Line
+	7900 3300 7600 3300
+Wire Wire Line
+	7900 3600 7600 3600
+Wire Wire Line
+	7900 3700 7600 3700
+Text Label 8200 3200 0    60   ~ 0
+VREF
+Text Label 8200 3300 0    60   ~ 0
+PDI_D
+Text Label 8200 3500 0    60   ~ 0
+PDI_C
+Wire Wire Line
+	8500 3300 8200 3300
+Wire Wire Line
+	8200 3200 8500 3200
+Wire Wire Line
+	8200 3500 8500 3500
+Wire Wire Line
+	8200 3100 8500 3100
+$Comp
+L CP1 C101
+U 1 1 5384E884
+P 7600 4600
+F 0 "C101" H 7650 4700 50  0000 L CNN
+F 1 "25pF" H 7650 4500 50  0000 L CNN
+F 2 "~" H 7600 4600 60  0000 C CNN
+F 3 "~" H 7600 4600 60  0000 C CNN
+	1    7600 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C102
+U 1 1 5384E893
+P 7900 4600
+F 0 "C102" H 7950 4700 50  0000 L CNN
+F 1 "25pF" H 7950 4500 50  0000 L CNN
+F 2 "~" H 7900 4600 60  0000 C CNN
+F 3 "~" H 7900 4600 60  0000 C CNN
+	1    7900 4600
+	1    0    0    -1  
+$EndComp
+Text Label 7600 4100 3    60   ~ 0
+PDI_C
+Wire Wire Line
+	7600 4100 7600 4400
+Text Label 7900 4100 3    60   ~ 0
+PDI_D
+Wire Wire Line
+	7900 4100 7900 4400
+$Comp
+L GND #PWR01
+U 1 1 5384E8CF
+P 7900 3700
+F 0 "#PWR01" H 7900 3700 30  0001 C CNN
+F 1 "GND" H 7900 3630 30  0001 C CNN
+F 2 "" H 7900 3700 60  0000 C CNN
+F 3 "" H 7900 3700 60  0000 C CNN
+	1    7900 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 5384E8DE
+P 8200 3100
+F 0 "#PWR02" H 8200 3100 30  0001 C CNN
+F 1 "GND" H 8200 3030 30  0001 C CNN
+F 2 "" H 8200 3100 60  0000 C CNN
+F 3 "" H 8200 3100 60  0000 C CNN
+	1    8200 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 5384E8ED
+P 7600 5000
+F 0 "#PWR03" H 7600 5000 30  0001 C CNN
+F 1 "GND" H 7600 4930 30  0001 C CNN
+F 2 "" H 7600 5000 60  0000 C CNN
+F 3 "" H 7600 5000 60  0000 C CNN
+	1    7600 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 5000 7600 4800
+$Comp
+L GND #PWR04
+U 1 1 5384E906
+P 7900 5000
+F 0 "#PWR04" H 7900 5000 30  0001 C CNN
+F 1 "GND" H 7900 4930 30  0001 C CNN
+F 2 "" H 7900 5000 60  0000 C CNN
+F 3 "" H 7900 5000 60  0000 C CNN
+	1    7900 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 5000 7900 4800
+NoConn ~ 7600 3400
+NoConn ~ 7600 3500
+NoConn ~ 8500 3000
+NoConn ~ 8500 3400
+NoConn ~ 8500 3600
+NoConn ~ 8500 3700
+NoConn ~ 8500 3800
+NoConn ~ 8500 3900
+$Comp
+L CP1 C104
+U 1 1 5384E9CF
+P 6750 4600
+F 0 "C104" H 6800 4700 50  0000 L CNN
+F 1 "25pF" H 6800 4500 50  0000 L CNN
+F 2 "~" H 6750 4600 60  0000 C CNN
+F 3 "~" H 6750 4600 60  0000 C CNN
+	1    6750 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C105
+U 1 1 5384E9D5
+P 7050 4600
+F 0 "C105" H 7100 4700 50  0000 L CNN
+F 1 "25pF" H 7100 4500 50  0000 L CNN
+F 2 "~" H 7050 4600 60  0000 C CNN
+F 3 "~" H 7050 4600 60  0000 C CNN
+	1    7050 4600
+	1    0    0    -1  
+$EndComp
+Text Label 6750 4100 3    60   ~ 0
+PDI_C
+Wire Wire Line
+	6750 4100 6750 4400
+Text Label 7050 4100 3    60   ~ 0
+PDI_D
+Wire Wire Line
+	7050 4100 7050 4400
+$Comp
+L GND #PWR06
+U 1 1 5384E9DF
+P 6750 5000
+F 0 "#PWR06" H 6750 5000 30  0001 C CNN
+F 1 "GND" H 6750 4930 30  0001 C CNN
+F 2 "" H 6750 5000 60  0000 C CNN
+F 3 "" H 6750 5000 60  0000 C CNN
+	1    6750 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 5000 6750 4800
+$Comp
+L GND #PWR07
+U 1 1 5384E9E6
+P 7050 5000
+F 0 "#PWR07" H 7050 5000 30  0001 C CNN
+F 1 "GND" H 7050 4930 30  0001 C CNN
+F 2 "" H 7050 5000 60  0000 C CNN
+F 3 "" H 7050 5000 60  0000 C CNN
+	1    7050 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 5000 7050 4800
+$EndSCHEMATC
