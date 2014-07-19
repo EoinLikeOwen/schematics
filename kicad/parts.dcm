@@ -1,9 +1,14 @@
-EESchema-DOCLIB  Version 2.0  Date: Thu 13 Feb 2014 07:15:32 PM PST
+EESchema-DOCLIB  Version 2.0  Date: Mon 16 Jun 2014 10:32:43 PM PDT
 #
 $CMP AAT3220
 D LM1084IS-3.3, 5A 27V Linear Regulator, Fixed Output 3.3V, TO-263
 K Voltage Regulator Adjustable 5A Positive
 F http://www.ti.com/lit/ds/symlink/lm1084.pdf
+$ENDCMP
+#
+$CMP ARM-JTAG-10
+D Standard IDC10 Male Connector, ATMEL JTAG ICE mkI/mkII
+K IDC10 Male Connector
 $ENDCMP
 #
 $CMP ATXMEGA128A4U-M
@@ -30,9 +35,20 @@ K AVR 8/16bit Microcontroller XMegaAVR
 F http://www.atmel.com/Images/doc8387.pdf
 $ENDCMP
 #
+$CMP GSG-DIODE-TVS-BI
+D Diode zener
+K DEV DIODE
+$ENDCMP
+#
 $CMP LM1084IS-5.0/NOPB
 D LM1084IS-5.0, 5A 27V Linear Regulator, Fixed Output 5.0V, TO-263
 K Voltage Regulator 5A Positive
+F http://www.ti.com/lit/ds/symlink/lm1084.pdf
+$ENDCMP
+#
+$CMP MCP1703A
+D LM1084IS-3.3, 5A 27V Linear Regulator, Fixed Output 3.3V, TO-263
+K Voltage Regulator Adjustable 5A Positive
 F http://www.ti.com/lit/ds/symlink/lm1084.pdf
 $ENDCMP
 #
