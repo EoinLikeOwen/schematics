@@ -1,0 +1,291 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:parts
+LIBS:tpa2011d1-breakout-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "4 jul 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L TPA2011D1 U1
+U 1 1 52FD8BAE
+P 5850 2800
+F 0 "U1" H 5850 2700 50  0000 C CNN
+F 1 "TPA2011D1" H 5850 2900 50  0000 C CNN
+F 2 "MODULE" H 5850 2800 50  0001 C CNN
+F 3 "DOCUMENTATION" H 5850 2800 50  0001 C CNN
+	1    5850 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_4 P1
+U 1 1 52FD8BBE
+P 3200 2600
+F 0 "P1" V 3150 2600 50  0000 C CNN
+F 1 "CONN_4" V 3250 2600 50  0000 C CNN
+F 2 "~" H 3200 2600 60  0000 C CNN
+F 3 "~" H 3200 2600 60  0000 C CNN
+	1    3200 2600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_4 P2
+U 1 1 52FD8BCB
+P 8250 2800
+F 0 "P2" V 8200 2800 50  0000 C CNN
+F 1 "CONN_4" V 8300 2800 50  0000 C CNN
+F 2 "~" H 8250 2800 60  0000 C CNN
+F 3 "~" H 8250 2800 60  0000 C CNN
+	1    8250 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C3
+U 1 1 52FD91E8
+P 4650 3100
+F 0 "C3" H 4700 3200 50  0000 L CNN
+F 1 "0.1u" H 4700 3000 50  0000 L CNN
+F 2 "~" H 4650 3100 60  0000 C CNN
+F 3 "~" H 4650 3100 60  0000 C CNN
+	1    4650 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 52FD91F7
+P 4550 2650
+F 0 "R2" V 4630 2650 40  0000 C CNN
+F 1 "R" V 4557 2651 40  0000 C CNN
+F 2 "~" V 4480 2650 30  0000 C CNN
+F 3 "~" H 4550 2650 30  0000 C CNN
+	1    4550 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R1
+U 1 1 52FD9206
+P 4550 2550
+F 0 "R1" V 4630 2550 40  0000 C CNN
+F 1 "R" V 4557 2551 40  0000 C CNN
+F 2 "~" V 4480 2550 30  0000 C CNN
+F 3 "~" H 4550 2550 30  0000 C CNN
+	1    4550 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C2
+U 1 1 52FD95AA
+P 4000 2650
+F 0 "C2" H 4000 2750 40  0000 L CNN
+F 1 "C" H 4006 2565 40  0000 L CNN
+F 2 "~" H 4038 2500 30  0000 C CNN
+F 3 "~" H 4000 2650 60  0000 C CNN
+	1    4000 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C1
+U 1 1 52FD95B9
+P 4000 2550
+F 0 "C1" H 4000 2650 40  0000 L CNN
+F 1 "C" H 4006 2465 40  0000 L CNN
+F 2 "~" H 4038 2400 30  0000 C CNN
+F 3 "~" H 4000 2550 60  0000 C CNN
+	1    4000 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L FILTER FB1
+U 1 1 52FD96AA
+P 7050 2750
+F 0 "FB1" H 7050 2900 60  0000 C CNN
+F 1 "FILTER" H 7050 2650 60  0000 C CNN
+F 2 "~" H 7050 2750 60  0000 C CNN
+F 3 "~" H 7050 2750 60  0000 C CNN
+	1    7050 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L FILTER FB2
+U 1 1 52FD96B7
+P 7050 2850
+F 0 "FB2" H 7050 3000 60  0000 C CNN
+F 1 "FILTER" H 7050 2750 60  0000 C CNN
+F 2 "~" H 7050 2850 60  0000 C CNN
+F 3 "~" H 7050 2850 60  0000 C CNN
+	1    7050 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C4
+U 1 1 52FD982B
+P 7500 3100
+F 0 "C4" H 7500 3200 40  0000 L CNN
+F 1 "C" H 7506 3015 40  0000 L CNN
+F 2 "~" H 7538 2950 30  0000 C CNN
+F 3 "~" H 7500 3100 60  0000 C CNN
+	1    7500 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C5
+U 1 1 52FD983A
+P 7700 3100
+F 0 "C5" H 7700 3200 40  0000 L CNN
+F 1 "C" H 7706 3015 40  0000 L CNN
+F 2 "~" H 7738 2950 30  0000 C CNN
+F 3 "~" H 7700 3100 60  0000 C CNN
+	1    7700 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 2450 4900 2450
+Wire Wire Line
+	4900 2450 4900 2950
+Wire Wire Line
+	4350 2850 5100 2850
+Wire Wire Line
+	4900 2950 5100 2950
+Connection ~ 4900 2850
+Wire Wire Line
+	3550 2750 4800 2750
+Wire Wire Line
+	4800 3350 4800 2750
+Wire Wire Line
+	4800 3050 5100 3050
+Wire Wire Line
+	4800 3150 5100 3150
+Connection ~ 4800 3050
+Wire Wire Line
+	5100 2450 5000 2450
+Wire Wire Line
+	5000 2450 5000 2250
+Wire Wire Line
+	5000 2250 6450 2250
+Wire Wire Line
+	6450 2250 6450 2650
+Wire Wire Line
+	6450 2650 7900 2650
+Wire Wire Line
+	4350 3350 7850 3350
+Connection ~ 4800 3150
+Wire Wire Line
+	4800 2550 5100 2550
+Wire Wire Line
+	5100 2650 4800 2650
+Wire Wire Line
+	4650 3350 4650 3300
+Connection ~ 4800 3350
+Wire Wire Line
+	4650 2900 4650 2850
+Wire Wire Line
+	3550 2650 3800 2650
+Wire Wire Line
+	3800 2550 3550 2550
+Wire Wire Line
+	4200 2550 4300 2550
+Wire Wire Line
+	4300 2650 4200 2650
+Wire Wire Line
+	7400 2850 7900 2850
+Wire Wire Line
+	7400 2750 7900 2750
+Wire Wire Line
+	6700 2850 6600 2850
+Wire Wire Line
+	6600 2750 6700 2750
+Wire Wire Line
+	7850 3350 7850 2950
+Wire Wire Line
+	7850 2950 7900 2950
+Wire Wire Line
+	7500 3300 7500 3350
+Connection ~ 7500 3350
+Wire Wire Line
+	7500 2900 7500 2750
+Connection ~ 7500 2750
+Wire Wire Line
+	7700 2900 7700 2850
+Connection ~ 7700 2850
+Wire Wire Line
+	7700 3300 7700 3350
+Connection ~ 7700 3350
+$Comp
+L CP1 C6
+U 1 1 53B6D786
+P 4350 3100
+F 0 "C6" H 4400 3200 50  0000 L CNN
+F 1 "10u" H 4400 3000 50  0000 L CNN
+F 2 "~" H 4350 3100 60  0000 C CNN
+F 3 "~" H 4350 3100 60  0000 C CNN
+	1    4350 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 3350 4350 3300
+Connection ~ 4650 3350
+Wire Wire Line
+	4350 2900 4350 2850
+Connection ~ 4650 2850
+Text Label 7800 2650 2    60   ~ 0
+EN
+Text Label 3600 2550 0    60   ~ 0
+IN+
+Text Label 3600 2650 0    60   ~ 0
+IN-
+Text Label 3600 2450 0    60   ~ 0
+Vdd
+Text Label 3600 2750 0    60   ~ 0
+GND
+Text Label 7800 2750 2    60   ~ 0
+OUT+
+Text Label 7800 2850 2    60   ~ 0
+OUT-
+Text Label 6650 2750 0    60   ~ 0
+Vo+_BGA
+Text Label 6650 2850 0    60   ~ 0
+Vo-_BGA
+Text Label 5050 2550 2    60   ~ 0
+IN+_BGA
+Text Label 5050 2650 2    60   ~ 0
+IN-_BGA
+$EndSCHEMATC
