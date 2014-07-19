@@ -1,0 +1,45 @@
+Cmp-Mod V01 Created by CvPcb (2013-june-11)-stable date = Mon 16 Jun 2014 11:01:50 PM PDT
+
+BeginCmp
+TimeStamp = /539FD64F;
+Reference = C1;
+ValeurCmp = CP1;
+IdModule  = SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /539FD683;
+Reference = FB1;
+ValeurCmp = FILTER;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /539FD730;
+Reference = P1;
+ValeurCmp = CONN_7;
+IdModule  = SIL-7;
+EndCmp
+
+BeginCmp
+TimeStamp = /539FD6E0;
+Reference = P2;
+ValeurCmp = CONN_7;
+IdModule  = SIL-7;
+EndCmp
+
+BeginCmp
+TimeStamp = /539FD8DB;
+Reference = P3;
+ValeurCmp = TC2030-IDC;
+IdModule  = TC2030-NL_SMALL;
+EndCmp
+
+BeginCmp
+TimeStamp = /539FD6D1;
+Reference = U1;
+ValeurCmp = ATTINY20-CCU;
+IdModule  = UFBGA-15;
+EndCmp
+
+EndListe
