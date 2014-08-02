@@ -1,0 +1,38 @@
+Cmp-Mod V01 Created by CvPcb (2013-june-11)-stable date = Fri 01 Aug 2014 05:19:02 PM PDT
+
+BeginCmp
+TimeStamp = /53DC2852;
+Reference = C1;
+ValeurCmp = 0.1u;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /53DC2802;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53DC2825;
+Reference = K2;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53DC2843;
+Reference = R1;
+ValeurCmp = Rsense;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /53DC27DE;
+Reference = U1;
+ValeurCmp = MAX4173_SO8;
+IdModule  = SO8E;
+EndCmp
+
+EndListe
