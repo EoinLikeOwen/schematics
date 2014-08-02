@@ -1,0 +1,80 @@
+Cmp-Mod V01 Created by CvPcb (2013-june-11)-stable date = Sat 02 Aug 2014 11:38:39 AM PDT
+
+BeginCmp
+TimeStamp = /53DD0F6C;
+Reference = C1;
+ValeurCmp = 0.33u;
+IdModule  = SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /53DD0677;
+Reference = C2;
+ValeurCmp = 1u;
+IdModule  = SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /53DD0F61;
+Reference = C3;
+ValeurCmp = 0.1u;
+IdModule  = SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /53DD172F;
+Reference = P1;
+ValeurCmp = CONN_5;
+IdModule  = SIL-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /53DD1743;
+Reference = P2;
+ValeurCmp = CONN_5;
+IdModule  = SIL-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /53DD11A3;
+Reference = R1;
+ValeurCmp = 4M;
+IdModule  = SM0402_r;
+EndCmp
+
+BeginCmp
+TimeStamp = /53DD1531;
+Reference = R2;
+ValeurCmp = 4M;
+IdModule  = SM0402_r;
+EndCmp
+
+BeginCmp
+TimeStamp = /53DD14C2;
+Reference = R3;
+ValeurCmp = 0;
+IdModule  = SM0402_r;
+EndCmp
+
+BeginCmp
+TimeStamp = /53DD17DE;
+Reference = TP1;
+ValeurCmp = CONN_1;
+IdModule  = TESTPOINT_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53DD0EB4;
+Reference = U1;
+ValeurCmp = MIC5504-3.3YM5 TR;
+IdModule  = SOT23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /53DD0708;
+Reference = U2;
+ValeurCmp = MICROSD_JAE_ST11-H;
+IdModule  = MICROSD_JAE_ST11-H;
+EndCmp
+
+EndListe
