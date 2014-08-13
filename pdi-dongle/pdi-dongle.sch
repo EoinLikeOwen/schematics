@@ -36,7 +36,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "27 may 2014"
+Date "5 aug 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -80,9 +80,9 @@ Wire Wire Line
 	7900 3600 7600 3600
 Wire Wire Line
 	7900 3700 7600 3700
-Text Label 8200 3200 0    60   ~ 0
-VREF
 Text Label 8200 3300 0    60   ~ 0
+VREF
+Text Label 8200 3200 0    60   ~ 0
 PDI_D
 Text Label 8200 3500 0    60   ~ 0
 PDI_C
