@@ -1,6 +1,6 @@
-update=Sat 02 Aug 2014 10:23:31 AM PDT
+update=Thursday, March 05, 2015 'AMt' 09:48:37 AM
 version=1
-last_client=cvpcb
+last_client=kicad
 [pcbnew]
 version=1
 LastNetListRead=
@@ -40,14 +40,14 @@ LibName16=/home/mokus/Projects/schematics/kicad/parts
 LibDir=
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
 LibDir=
-NetFmtName=
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -79,9 +79,4 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=/home/mokus/Projects/schematics/kicad/parts
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibName31=/Users/mokus/github/mokus0/schematics/kicad/parts
