@@ -10,113 +10,27 @@ import Data.Monoid
 import Data.Ord
 import qualified Data.Map as M
 
-bom =
-    [ (1, pcb)
-    , (1, ft234xd)
-    , (1, c1)
-    , (3, c2_c6_c8)
-    , (1, c3)
-    , (2, c4_c5)
-    , (1, c7)
-    , (1, usbConnector)
-    , (1, emiFilterBead)
-    , (1, zeroOhmResistor)
-    , (1, r1)
-    , (1, r2)
-    , (2, r3_r4)
-    ]
+bom = [(1, pcb), (2, capacitor), (1, connector)]
 
-pcb = oshParkPCB (0.5 * 0.7) "FT234XD breakout"
+pcb = oshParkPCB (0.4 * 0.5) "PDI dongle"
 
-ft234xd = basicPart mouser "FT234XD-T"
-    [ (1,    2.04)
-    , (25,   1.97)
-    , (100,  1.90)
-    , (1000, 1.40)
-    ]
-
-c1 = basicPart mouser "C0402C472K5RACTU"
+capacitor = basicPart mouser "C0402C270K5GACTU"
     [ (1,    0.10)
-    , (10,   0.01)
-    , (100,  0.008)
-    , (1000, 0.006)
-    , (1000, 0.005)
-    ]
-
-c2_c6_c8 = basicPart mouser "GRM155R71C104KA88D"
-    [ (1,    0.10)
-    , (10,   0.01)
+    , (10,   0.009)
     , (100,  0.006)
-    , (1000, 0.005)
-    , (2500, 0.004)
+    , (1000, 0.003)
     ]
 
-c3 = basicPart mouser "VJ0402V103ZXJCW1BC"
-    [ (1,    0.06)
-    , (50,   0.04)
-    , (100,  0.032)
-    , (500,  0.022)
-    , (1000, 0.012)
-    ]
-
-c4_c5 = basicPart mouser "C1005C0G1H470J050BA"
-    [ (1,     0.10)
-    , (10,    0.013)
-    , (100,   0.008)
-    , (1000,  0.006)
-    , (2500,  0.005)
-    ]
-
-c7 = basicPart mouser "VJ0805V475ZXQTW1BC"
-    [ (1,    0.06)
-    , (50,   0.043)
-    , (100,  0.036)
-    , (500,  0.032)
-    , (1000, 0.028)
-    ]
-
-usbConnector = basicPart mouser "10033526-N3212LF"
-    [ (1,   0.58)
-    , (10,  0.483)
-    , (100, 0.422)
-    , (500, 0.362)
-    ]
-
-emiFilterBead = basicPart mouser "BK1608TS102-T"
-    [ (1,      0.43)
-    , (10,     0.051)
-    , (100,    0.027)
-    , (500,    0.023)
-    , (1000,   0.021)
-    , (2500,   0.016)
-    ] 
-
-zeroOhmResistor = basicPart mouser "CRCW06030000Z0EA"
-    [ (1,     0.08)
-    , (10,    0.01)
-    , (100,   0.008)
-    , (1000,  0.006)
-    ]
-
-r1 = basicPart mouser "CRCW04021M00FKED"
-    [ (1,    0.08)
-    , (10,   0.044)
-    , (100,  0.021)
-    , (1000, 0.015)
-    ]
-
-r2 = basicPart mouser "CRCW040210K0FKED"
-    [ (1,    0.08)
-    , (10,   0.044)
-    , (100,  0.021)
-    , (1000, 0.015)
-    ]
-
-r3_r4 = basicPart mouser "CRCW040227R0JNED"
-    [ (1,    0.08)
-    , (10,   0.04)
-    , (100,  0.015)
-    , (1000, 0.009)
+connector = basicPart mouser "613010243121"
+    [ (1,    1.18)
+    , (10,   1.13)
+    , (50,   1.05)
+    , (100,  0.962)
+    , (300,  0.875)
+    , (600,  0.741)
+    , (900,  0.637)
+    , (2400, 0.545)
+    , (4800, 0.475)
     ]
 
 ---------------------------------------

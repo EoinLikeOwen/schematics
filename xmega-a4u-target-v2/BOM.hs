@@ -69,38 +69,29 @@ crystal = basicPart mouser "TSX-3225 16.0000MF09Z-AC3"
     , (100, 0.45)
     ]
 
-crystalLoadCapacitor = basicPart mouser "VJ0402A100JXAAC"
-    [ (1,   0.05)
-    , (50,  0.048)
-    , (100, 0.04)
-    , (500, 0.03)
+crystalLoadCapacitor = basicPart mouser "C0402C100J5GACTU"
+    [ (1,    0.10)
+    , (10,   0.01)
+    , (100,  0.008)
+    , (1000, 0.007)
+    , (2000, 0.006)
     ]
 
-decouplingCapacitor = basicPart mouser "04026D104KAT2A"
-    [ (1,    0.05)
-    , (10,   0.04)
-    , (100,  0.03)
-    , (1000, 0.025)
-    , (2500, 0.02)
-    ]
-     ++ basicPart mouser "VJ0402V104MXQCW1BC"
-    [ (1,    0.06)
-    , (50,   0.04)
-    , (100,  0.032)
-    , (500,  0.022)
-    , (1000, 0.012)
+decouplingCapacitor = basicPart mouser "GRM155R71C104KA88D"
+    [ (1,    0.10)
+    , (10,   0.01)
+    , (100,  0.006)
+    , (1000, 0.005)
+    , (2500, 0.004)
     ]
 
-avccFilter = basicPart mouser "436-0102-RC"
-    [ (1,      0.05)
-    , (100,    0.047)
-    , (500,    0.039)
-    , (1000,   0.038)
-    , (4000,   0.03)
-    , (8000,   0.029)
-    , (20000,  0.026)
-    , (40000,  0.025)
-    , (100000, 0.024)
+avccFilter = basicPart mouser "BK1608TS102-T"
+    [ (1,      0.43)
+    , (10,     0.051)
+    , (100,    0.027)
+    , (500,    0.023)
+    , (1000,   0.021)
+    , (2500,   0.016)
     ] 
 
 avccDecouplingCapacitor = basicPart mouser "VJ0805V335ZXQTW1BC"
@@ -135,13 +126,12 @@ usbEsdModule = basicPart mouser "TPD2E001IDRLRQ1"
     , (750, 0.199)
     ]
 
-shieldDecouplingCapacitor = basicPart mouser "VJ0402Y472KXACW1BC"
-    [ (1,    0.06)
-    , (50,   0.04)
-    , (100,  0.036)
-    , (500,  0.02)
-    , (1000, 0.018)
-    , (4000, 0.015)
+shieldDecouplingCapacitor = basicPart mouser "C0402C472K5RACTU"
+    [ (1,    0.10)
+    , (10,   0.01)
+    , (100,  0.008)
+    , (1000, 0.006)
+    , (1000, 0.005)
     ]
 
 shieldDecouplingResistor = basicPart mouser "CRCW04021M00FKED"
@@ -158,12 +148,12 @@ regulator = basicPart mouser "AAT3220IGY-3.3-T1"
     , (1000, 0.14)
     ]
 
-regulatorOutputCapacitor = basicPart mouser "0402ZD105KAT2A"
-    [ (1,    0.06)
-    , (50,   0.05)
-    , (100,  0.04)
-    , (1000, 0.03)
-    , (5000, 0.01)
+regulatorOutputCapacitor = basicPart mouser "GRM155R60J105KE19D"
+    [ (1,    0.18)
+    , (10,   0.022)
+    , (100,  0.013)
+    , (1000, 0.01)
+    , (2500, 0.009)
     ]
 
 ---------------------------------------

@@ -31,7 +31,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:parts
 LIBS:microSD-breakout-cache
-EELAYER 27 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -207,7 +207,7 @@ Connection ~ 3700 1400
 Wire Wire Line
 	5400 1300 5400 1400
 Connection ~ 5400 1400
-Text Notes 3300 2800 0    60   ~ 0
+Text Notes 3350 3000 0    60   ~ 0
 DSW is open when card is present, pulled to ground when card is absent\nSo we pull that up to VIN and (optionally) use it to enable the regulator.\nAlternately we can pull DSW up to the 3V3 rail for use by the MCU
 Text Label 3400 1900 0    60   ~ 0
 VIN
